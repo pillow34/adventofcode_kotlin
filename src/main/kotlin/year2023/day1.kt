@@ -2,7 +2,7 @@ package year2023
 import Question
 import java.util.Dictionary
 
-fun part1(input: String): Int {
+private fun part1(input: String): Int {
     var sum = 0
     for (line in input.split("\n")) {
 //        println("$line")
@@ -15,7 +15,7 @@ fun part1(input: String): Int {
     return sum
 }
 
-fun part2(input: String): Int {
+private fun part2(input: String): Int {
 
     val nums = mapOf(
         "one" to "one1one",
