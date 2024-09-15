@@ -70,7 +70,7 @@ private class turtle(val startdirection: String, val startx: Int, val starty: In
     }
 
     fun taxidistance():Int {
-        return abs((y - starty) + (x - startx))
+        return abs((y - starty)) + abs((x - startx))
     }
 
 }
